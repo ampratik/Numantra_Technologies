@@ -1,0 +1,100 @@
+<!-- <h1 class="title">Hello Angular! {{title}} </h1>
+
+<button (click)="getName('pratik','Shubham')">Click Me</button>
+<button (click)="getName('Shubham')">Click Me2</button>
+
+<button (click)="getData('Wake up to the reality')">Click Me to see in console</button>
+<br/><br>
+<input type="string" #box1 (keyup)="getData(box1.value)" placeholder="Full Name" name="UserName"/>
+<input type="string" #box1  placeholder="Full Name" name="UserName"/>
+<button (click)="getData(box1.value)">Click</button> 
+<br><br>
+
+<p class="pTag">The Name of User is: {{ResultValue}}</p>
+
+<input type="text" #box2 (keyup)="getData(box2.value)" placeholder="keyup Value"/>
+<button (click)="counter('add')">++</button>
+<p class="pTag">count is {{count}}</p>
+<button (click)="counter('sub')">--</button>
+<app-login></app-login>
+<br><br>
+ <h1 (mouseover)="getData('mouseover is working well')">Angular day 3</h1>
+<h1 (mouseleave)="getData('mouse leave is also working well')">Angular is difficult than react </h1> 
+
+ <input type="text" name="userName" value={{value}} disabled="{{disable}}">
+<br><br>
+<input type="text" name="userName" [value]=value [disabled]=disable> 
+
+<h1 *ngIf="show=='yes' ; then ifblock else elseblock"></h1>
+
+<ng-template #ifblock>
+    <h1>we are in if block</h1>
+</ng-template>
+
+<ng-template #elseblock>
+    <h1>we are in else block</h1>
+</ng-template>
+
+//**********************
+elseif blocks 
+
+<ng-template [ngIf]="color==='red'">
+<h1 style="color:red">Red color</h1>
+</ng-template>
+
+<ng-template [ngIf]="color==='green'">
+    <h1 style="color:green">green color</h1>
+    </ng-template>
+
+    <ng-template [ngIf]="color==='blue'">
+        <h1 style="color:blue">blue color</h1>
+        </ng-template>
+
+//**********************
+Switch Case in Angular
+
+<div [ngSwitch]="colour">
+
+<h1 *ngSwitchCase ="'red'" style="color:red">red color using switch case</h1>
+
+<h1 *ngSwitchCase="'green'" style="color:green"> green color using switch case</h1>
+<h1 *ngSwitchCase="'blue'" style="color:blue"> blue color using switch case</h1>
+<h1 *ngSwitchCase="'skyblue'" style="color:skyblue"> skyblue color using switch case</h1>
+<h1 *ngSwitchCase="'pink'" style="color:pink"> pink color using switch case</h1>
+
+<h1 *ngSwitchDefault> Unknown color </h1>
+</div>
+
+//**********************
+for loop in Angular
+
+<h2 *ngFor="let i of users">The user Name is {{i}}</h2>
+<br><br>
+
+<h2 *ngFor="let items of userDetails">{{items.name}} ---{{items.email}}</h2>
+
+<ul *ngFor="let i of userDetails">
+   
+        <li>Name :{{i.name}}</li>
+        <li>age :{{i.age}}</li>
+        <li>email :{{i.email}}</li>
+           <ul *ngFor="let j of i.social_accounts">
+           
+                <li>{{j}}</li>
+           </ul>
+    </ul>
+
+    //**********************
+Dynamic binding / style binding
+
+<h1 [style.color]="color1"[style.backgroundColor]="bgcolor">Dynamic binding</h1>
+<button (click)="changeColor()">change color</button> -->
+
+
+<!-- ***************************Header using angular *************************** -->
+
+<app-header></app-header>
+
+<app-basicform></app-basicform>
+
+
